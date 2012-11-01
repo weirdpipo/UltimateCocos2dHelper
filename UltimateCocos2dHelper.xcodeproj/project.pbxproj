@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		462E062F16420BD30038A01B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462E062E16420BD30038A01B /* UIKit.framework */; };
+		462E063116420BD30038A01B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462E063016420BD30038A01B /* Foundation.framework */; };
+		462E063316420BD30038A01B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462E063216420BD30038A01B /* CoreGraphics.framework */; };
+		462E063916420BD30038A01B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 462E063716420BD30038A01B /* InfoPlist.strings */; };
+		462E063B16420BD30038A01B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E063A16420BD30038A01B /* main.m */; };
+		462E063F16420BD30038A01B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 462E063E16420BD30038A01B /* AppDelegate.m */; };
+		462E064116420BD30038A01B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 462E064016420BD30038A01B /* Default.png */; };
+		462E064316420BD30038A01B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 462E064216420BD30038A01B /* Default@2x.png */; };
+		462E064516420BD30038A01B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 462E064416420BD30038A01B /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		462E062A16420BD30038A01B /* UltimateCocos2dHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UltimateCocos2dHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		462E062E16420BD30038A01B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		462E063016420BD30038A01B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		462E063216420BD30038A01B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		462E063616420BD30038A01B /* UltimateCocos2dHelper-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UltimateCocos2dHelper-Info.plist"; sourceTree = "<group>"; };
+		462E063816420BD30038A01B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		462E063A16420BD30038A01B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		462E063C16420BD30038A01B /* UltimateCocos2dHelper-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UltimateCocos2dHelper-Prefix.pch"; sourceTree = "<group>"; };
+		462E063D16420BD30038A01B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		462E063E16420BD30038A01B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		462E064016420BD30038A01B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		462E064216420BD30038A01B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		462E064416420BD30038A01B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		462E062716420BD30038A01B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462E062F16420BD30038A01B /* UIKit.framework in Frameworks */,
+				462E063116420BD30038A01B /* Foundation.framework in Frameworks */,
+				462E063316420BD30038A01B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		462E061F16420BD20038A01B = {
+			isa = PBXGroup;
+			children = (
+				462E063416420BD30038A01B /* UltimateCocos2dHelper */,
+				462E062D16420BD30038A01B /* Frameworks */,
+				462E062B16420BD30038A01B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		462E062B16420BD30038A01B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				462E062A16420BD30038A01B /* UltimateCocos2dHelper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		462E062D16420BD30038A01B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				462E062E16420BD30038A01B /* UIKit.framework */,
+				462E063016420BD30038A01B /* Foundation.framework */,
+				462E063216420BD30038A01B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		462E063416420BD30038A01B /* UltimateCocos2dHelper */ = {
+			isa = PBXGroup;
+			children = (
+				462E063D16420BD30038A01B /* AppDelegate.h */,
+				462E063E16420BD30038A01B /* AppDelegate.m */,
+				462E063516420BD30038A01B /* Supporting Files */,
+			);
+			path = UltimateCocos2dHelper;
+			sourceTree = "<group>";
+		};
+		462E063516420BD30038A01B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				462E063616420BD30038A01B /* UltimateCocos2dHelper-Info.plist */,
+				462E063716420BD30038A01B /* InfoPlist.strings */,
+				462E063A16420BD30038A01B /* main.m */,
+				462E063C16420BD30038A01B /* UltimateCocos2dHelper-Prefix.pch */,
+				462E064016420BD30038A01B /* Default.png */,
+				462E064216420BD30038A01B /* Default@2x.png */,
+				462E064416420BD30038A01B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		462E062916420BD30038A01B /* UltimateCocos2dHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 462E064816420BD30038A01B /* Build configuration list for PBXNativeTarget "UltimateCocos2dHelper" */;
+			buildPhases = (
+				462E062616420BD30038A01B /* Sources */,
+				462E062716420BD30038A01B /* Frameworks */,
+				462E062816420BD30038A01B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UltimateCocos2dHelper;
+			productName = UltimateCocos2dHelper;
+			productReference = 462E062A16420BD30038A01B /* UltimateCocos2dHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		462E062116420BD20038A01B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Phillipe Casorla Sagot";
+			};
+			buildConfigurationList = 462E062416420BD20038A01B /* Build configuration list for PBXProject "UltimateCocos2dHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 462E061F16420BD20038A01B;
+			productRefGroup = 462E062B16420BD30038A01B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				462E062916420BD30038A01B /* UltimateCocos2dHelper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		462E062816420BD30038A01B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462E063916420BD30038A01B /* InfoPlist.strings in Resources */,
+				462E064116420BD30038A01B /* Default.png in Resources */,
+				462E064316420BD30038A01B /* Default@2x.png in Resources */,
+				462E064516420BD30038A01B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		462E062616420BD30038A01B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				462E063B16420BD30038A01B /* main.m in Sources */,
+				462E063F16420BD30038A01B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		462E063716420BD30038A01B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				462E063816420BD30038A01B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		462E064616420BD30038A01B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		462E064716420BD30038A01B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		462E064916420BD30038A01B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UltimateCocos2dHelper/UltimateCocos2dHelper-Prefix.pch";
+				INFOPLIST_FILE = "UltimateCocos2dHelper/UltimateCocos2dHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		462E064A16420BD30038A01B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UltimateCocos2dHelper/UltimateCocos2dHelper-Prefix.pch";
+				INFOPLIST_FILE = "UltimateCocos2dHelper/UltimateCocos2dHelper-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		462E062416420BD20038A01B /* Build configuration list for PBXProject "UltimateCocos2dHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462E064616420BD30038A01B /* Debug */,
+				462E064716420BD30038A01B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		462E064816420BD30038A01B /* Build configuration list for PBXNativeTarget "UltimateCocos2dHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				462E064916420BD30038A01B /* Debug */,
+				462E064A16420BD30038A01B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 462E062116420BD20038A01B /* Project object */;
+}
