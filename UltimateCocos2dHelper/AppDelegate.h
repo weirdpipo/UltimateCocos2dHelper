@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "cocos2d.h"
+@interface AppDelegate : UIResponder <UIApplicationDelegate,CCDirectorDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-
+@property (nonatomic, retain) UINavigationController	*viewController;
+@property (readonly) CCDirectorIOS *director;
 @end
